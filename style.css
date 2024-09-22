@@ -1,0 +1,44 @@
+table {
+    border-radius: 30px;
+    border-color: blanchedalmond;
+    margin: 60px;
+    font-size: 1em;
+    background-color: white;
+}
+
+tr:hover {
+    background-color: rgb(244, 224, 197);
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+th{
+    background-color: antiquewhite;
+}
+
+.meet-date {
+    display: block;
+}
+
+.meet-day {
+    font-style: italic;
+    font-size: 100%;
+    color: #3e3e3e;
+}
+
+header{
+    font-size: medium;
+}
+
+td:nth-child(4) {
+    color: #3e3e3e;
+    font-style: italic;
+}
+
+td:nth-child(3) {
+    text-align: center;
+}
